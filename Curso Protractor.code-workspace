@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "javascriptBasics"
+		},
+		{
+			"path": "calculator"
+		},
+		{
+			"path": "testData"
+		},
+		{
+			"path": "todo-list"
+		}
+	],
+	"settings": {}
+}
