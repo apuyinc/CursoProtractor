@@ -1,6 +1,6 @@
 exports.config = {
     directConnect: true,
-    specs: ['./MiPrimerTest.spec.js'],
+    specs: ['./jasmine.spec.js'],
     capabilities: {
       browserName: 'chrome'
     }

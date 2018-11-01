@@ -1,4 +1,4 @@
-describe('calculator test', function() {
+describe('La calculadra', function() {
 
     it('suma 2 + 1', function() {
       browser.get('http://juliemr.github.io/protractor-demo/');
@@ -6,7 +6,8 @@ describe('calculator test', function() {
       element(by.model('first')).sendKeys('1');
       element(by.model('second')).sendKeys('2');
       element(by.model('operator')).element(by.cssContainingText('option', '+')).click();
-      element(by.id('gobutton')).click();
+      //element(by.id('gobutton')).click();
+      element(by.css('.btn')).click();
 
       expect(element(by.binding('latest')).getText()).toEqual('3'); // see source code
     });

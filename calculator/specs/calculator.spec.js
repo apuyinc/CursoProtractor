@@ -1,6 +1,6 @@
 const calculatorPage = require('../pages/calculator.js');
 
-describe('Calculator using page objects: ', function() {
+describe('Calculator usando page objects: ', function() {
     beforeAll(function() {
         browser.get('http://juliemr.github.io/protractor-demo/');
     });

@@ -1,3 +1,4 @@
+//node.exe .\javascriptBasics.js
 // VARIABLES
 console.log("VARIABLES");
 

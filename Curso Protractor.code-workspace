@@ -11,6 +11,21 @@
 		},
 		{
 			"path": "todo-list"
+		},
+		{
+			"path": "MiPrimerTest"
+		},
+		{
+			"path": "FicheroConfJS"
+		},
+		{
+			"path": "Promesas"
+		},
+		{
+			"path": "locators"
+		},
+		{
+			"path": "Jasmine"
 		}
 	],
 	"settings": {}
