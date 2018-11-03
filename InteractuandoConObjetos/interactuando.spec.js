@@ -1,4 +1,5 @@
 describe('angularjs homepage todo list', function() {
+    
     it('should add a todo', function() {
       browser.get('https://angularjs.org');
   
@@ -15,7 +16,7 @@ describe('angularjs homepage todo list', function() {
       expect(completedAmount.count()).toEqual(2);
     });
 
-    fit('suma 2 + 1', function() {
+    it('suma 2 + 1', function() {
         browser.get('http://juliemr.github.io/protractor-demo/');
     
         element(by.model('first')).sendKeys('1');
@@ -28,6 +29,5 @@ describe('angularjs homepage todo list', function() {
         element(by.repeater('result in memory').row(0).column('result.value')).getText().then(function(text) {
             expect(text).toBe('3');
         });
-        //expect(result).toBe('3');
-      });
+    });
   });

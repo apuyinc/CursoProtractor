@@ -7,9 +7,6 @@
 			"path": "calculator"
 		},
 		{
-			"path": "testData"
-		},
-		{
 			"path": "todo-list"
 		},
 		{
@@ -32,7 +29,12 @@
 		},
 		{
 			"path": "InteractuandoConObjetos"
+		},
+		{
+			"path": "testData"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
 }
