@@ -26,6 +26,12 @@
 		},
 		{
 			"path": "Jasmine"
+		},
+		{
+			"path": "PageObjects"
+		},
+		{
+			"path": "InteractuandoConObjetos"
 		}
 	],
 	"settings": {}
