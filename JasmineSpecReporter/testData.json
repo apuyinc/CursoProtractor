@@ -1,0 +1,10 @@
+{
+    "data": {
+        "uno":"1",
+        "dos":"2",
+        "tres":"3",
+        "cuatro":"4"
+    },
+
+    "urlToTest":"http://juliemr.github.io/protractor-demo/"
+}

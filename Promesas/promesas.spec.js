@@ -18,26 +18,18 @@ describe('curso protractor',function(){
             console.log(title);
         });
 
-       /*var title = browser.getTitle();
-
-
-       if(title==="Protractor practice website - Banking App"){
-
-        console.log("Title matches");
-
-       }else{
-
-        console.log("Title does not match");
-
-       }
-
-        browser.sleep(2000);
-
-       */
+        it('Permite comparar un label', function() {
+            browser.get('https://angularjs.org');
+    
+            element(by.model('yourName')).sendKeys('Jose Luis');
+            
+            //expect(element(by.binding('yourName')).getText()).toBe('Hello Jose Luis!');
+            console.log("antes de la promesa");
+            element(by.binding('yourName')).getText().then(function(nombre){console.log(nombre)});
+            console.log("después de la promesa");
+        })
 
     });
-
-
 
 
 });

@@ -4,9 +4,6 @@
 			"path": "javascriptBasics"
 		},
 		{
-			"path": "calculator"
-		},
-		{
 			"path": "todo-list"
 		},
 		{
@@ -32,6 +29,9 @@
 		},
 		{
 			"path": "testData"
+		},
+		{
+			"path": "JasmineSpecReporter"
 		}
 	],
 	"settings": {
