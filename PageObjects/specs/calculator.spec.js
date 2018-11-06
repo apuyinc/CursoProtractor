@@ -2,9 +2,9 @@ const calculatorPage = require('../pages/calculator.js');
 
 describe('Calculator usando page objects: ', function() {
     beforeAll(function() {
-        browser.get('http://juliemr.github.io/protractor-demo/');
+      calculatorPage.get();
+        //browser.get('http://juliemr.github.io/protractor-demo/');
     });
-  // const actualExtractedFile = config.allegionFilepath.actualExtractScenario1File;
 
   /* beforeEach(function() {
     browser.get('http://juliemr.github.io/protractor-demo/');

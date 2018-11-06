@@ -5,7 +5,7 @@ describe('La calculadra', function() {
   
       element(by.model('first')).sendKeys('1');
       element(by.model('second')).sendKeys('2');
-      element(by.model('operator')).element(by.cssContainingText('option', '+')).click();
+      element(by.model('operator')).element(by.cssContainingText('option', '-')).click();
       //element(by.id('gobutton')).click();
       element(by.css('.btn')).click();
 
